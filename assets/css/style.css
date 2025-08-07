@@ -1,0 +1,54 @@
+/* =============== CSS COMMON START ====================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* =============== CSS COMMON END ======================*/
+
+/*(A.+) - try*/
+
+body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #111;
+      color: #00FFCC;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 24px;
+    }
+
+    .typewriter {
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid #00FFCC;
+      animation: blink-caret 0.75s step-end infinite;
+    }
+
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: #00FFCC; }
+    }
